@@ -9,7 +9,7 @@ fetch all dependencies:
 
 serve the application:
 
-    npm run
+    npm start
 
 start REST API:
 
