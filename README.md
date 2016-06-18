@@ -28,5 +28,5 @@ app:
 
 cli:
 
- * [`json server`](https://github.com/typicode/json-server)
+ * [`json-server`](https://github.com/typicode/json-server)
  * [`http-server`](https://github.com/indexzero/http-server)

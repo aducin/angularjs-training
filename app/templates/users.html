@@ -1,0 +1,16 @@
+<div class="starter-template">
+    <button ng-click="fetch()" type="button" class="btn btn-success">Load Users</button>
+    <div cg-busy="collectionPromise">
+        <h2 ng-if="!users" class="text-danger">no items</h2>
+
+        <div ng-if="users" class="center-block" style="width: 800px;">
+            order by: <select ng-model="order">
+                <option value="">---Please select---</option>
+                <option value="firstName">firstName</option>
+                <option value="lastName">lastName</option>
+                <option value="age">age</option>
+            </select>
+            <user-table users="users" order="order" fetch="fetch()"></user-table>
+        </div>
+    </div>
+</div>

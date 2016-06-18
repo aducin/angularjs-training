@@ -1,0 +1,20 @@
+<table class="table table-striped">
+    <tr>
+        <td>id</td>
+        <td>first name</td>
+        <td>last name</td>
+        <td>age</td>
+        <td>bio</td>
+        <td>actions</td>
+    </tr>
+    <tr ng-repeat="user in users | orderBy: order">
+        <td>{{ ::user.id }}</td>
+        <td>{{ ::user.firstName }}</td>
+        <td>{{ ::user.lastName }}</td>
+        <td>{{ ::user.age }}</td>
+        <td>{{ ::user.bio | shorten:70 }}</td>
+        <td>
+            <button ng-click="delete(user)" type="button" class="btn-sm btn-danger">Delete</button>
+        </td>
+    </tr>
+</table>
