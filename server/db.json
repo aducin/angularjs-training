@@ -4,6 +4,27 @@
     "language": "en",
     "some": "data"
   },
+  "news": [{
+    "id": 1,
+    "header" : "1111",
+      "published" : true,
+    "content": "Lorem ipsum dolor sit amet,  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  }, {
+    "id": 2,
+    "header" : "222",
+      "published" : false,
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum do laborum."
+  }, {
+    "id": 3,
+    "header" : "3333",
+      "published" : true,
+    "content": "Lorem ipsum dolouis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  }, {
+    "id": 4,
+    "header" : "444",
+      "published" : false,
+    "content": "Lorem ipsum dolor sit a esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  }],
   "users": [
     {
       "firstName": "Sofia",
